@@ -1,7 +1,22 @@
 {
-  "name": "anthology",
+  "name": "anthology-design-system",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "A React component library built with Storybook, TypeScript, and Tailwind CSS",
+  "author": "khalifa707",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalifa707/design-systems-with-storybook.git"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "storybook",
+    "tailwindcss",
+    "typescript",
+    "components"
+  ],
   "type": "module",
   "scripts": {
     "dev": "npm storybook",
