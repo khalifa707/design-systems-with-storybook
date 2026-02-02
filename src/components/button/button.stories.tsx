@@ -14,6 +14,21 @@ type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = {
   args: {
+    children: 'Button',
     variant: 'primary',
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    children: 'Button',
+    variant: 'secondary',
+  },
+};
+
+export const Destructive: Story = {
+  args: {
+    children: 'Button',
+    variant: 'destructive',
   },
 };
