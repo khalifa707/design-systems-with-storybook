@@ -6,6 +6,7 @@ const meta = {
   component: Button,
   args: {
     children: 'Button',
+    size: 'medium',
     disabled: false,
   },
   argTypes: {
@@ -15,6 +16,10 @@ const meta = {
     variant: {
       control: 'select',
       options: ['primary', 'secondary', 'destructive'],
+    },
+    size: {
+      control: 'select',
+      options: ['small', 'medium', 'large'],
     },
   },
 } satisfies Meta<typeof Button>;
@@ -40,5 +45,26 @@ export const Destructive: Story = {
   args: {
     children: 'Button',
     variant: 'destructive',
+  },
+};
+
+export const Small: Story = {
+  args: {
+    children: 'Button',
+    size: 'small',
+  },
+};
+
+export const Medium: Story = {
+  args: {
+    children: 'Button',
+    size: 'medium',
+  },
+};
+
+export const Large: Story = {
+  args: {
+    children: 'Button',
+    size: 'large',
   },
 };
