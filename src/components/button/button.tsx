@@ -3,7 +3,7 @@ import styles from './button.module.css';
 import clsx from 'clsx';
 
 export type ButtonProps = ComponentProps<'button'> & {
-  variant: 'primary' | 'secondary' | 'destructive';
+  variant?: 'primary' | 'secondary' | 'destructive';
 };
 
 export const Button = ({ variant = 'primary', ...props }: ButtonProps) => {
