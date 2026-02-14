@@ -1,5 +1,5 @@
 .button {
-  @apply bg-indigo-500 hover:bg-indigo-400 active:bg-indigo-300;
+  @apply bg-primary-500 hover:bg-primary-400 active:bg-primary-300;
   align-items: center;
   border-color: transparent;
   border-radius: 0.25rem;
@@ -27,11 +27,11 @@
 }
 
 .button:hover {
-  background-color: #4338ca;
+  background-color: #8a55c8;
 }
 
 .button:active {
-  background-color: #3730a3;
+  background-color: #7642ae;
 }
 
 /* Variant: secondary */
