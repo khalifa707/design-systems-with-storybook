@@ -18,7 +18,7 @@ const meta = {
       options: ['primary', 'secondary', 'destructive'],
     },
     size: {
-      control: 'select',
+      control: 'radio',
       options: ['small', 'medium', 'large'],
     },
   },
@@ -48,7 +48,7 @@ export const Destructive: Story = {
   },
 };
 
-export const Small: Story = {
+/*export const Small: Story = {
   args: {
     children: 'Button',
     size: 'small',
@@ -67,4 +67,4 @@ export const Large: Story = {
     children: 'Button',
     size: 'large',
   },
-};
+};*/
