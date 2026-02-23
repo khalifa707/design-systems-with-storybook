@@ -1,9 +1,9 @@
 import { j as f } from './jsx-runtime-X2b_N9AH.js';
 import { useMDXComponents as d } from './index-CRbi4mQH.js';
-import { M as r, e as o, f as b } from './index-CUCzCPqS.js';
+import { M as o, e as r, f as b } from './index-LP3i1jdM.js';
 import './index-uCp2LrAq.js';
 import './_commonjsHelpers-BosuxZz1.js';
-import './iframe-Bsv8L6Jk.js';
+import './iframe-D2wSyy0Y.js';
 import '../sb-preview/runtime.js';
 import './index-BOkhicXD.js';
 import './index-DXimoRZY.js';
@@ -115,22 +115,22 @@ const n = {
     950: '#23272e',
   },
 };
-function a(t) {
+function a(c) {
   return f.jsxs(f.Fragment, {
     children: [
-      f.jsx(r, { title: 'Design System/Colors' }),
+      f.jsx(o, { title: 'Tokens/Colors' }),
       `
 `,
-      f.jsx(o, {
-        children: Object.entries(n).map(([e, c]) =>
-          f.jsx(b, { title: e, subtitle: `${Object.keys(c).length} shades`, colors: c }, e),
+      f.jsx(r, {
+        children: Object.entries(n).map(([e, t]) =>
+          f.jsx(b, { title: e, subtitle: `${Object.keys(t).length} shades`, colors: t }, e),
         ),
       }),
     ],
   });
 }
-function h(t = {}) {
-  const { wrapper: e } = { ...d(), ...t.components };
-  return e ? f.jsx(e, { ...t, children: f.jsx(a, { ...t }) }) : a();
+function g(c = {}) {
+  const { wrapper: e } = { ...d(), ...c.components };
+  return e ? f.jsx(e, { ...c, children: f.jsx(a, { ...c }) }) : a();
 }
-export { h as default };
+export { g as default };

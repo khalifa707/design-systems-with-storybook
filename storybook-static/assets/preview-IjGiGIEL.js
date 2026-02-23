@@ -1,6 +1,6 @@
 const __vite__fileDeps = ['./axe-CnvMVRIB.js', './_commonjsHelpers-BosuxZz1.js'],
   __vite__mapDeps = (i) => i.map((i) => __vite__fileDeps[i]);
-import { _ as S } from './iframe-Bsv8L6Jk.js';
+import { _ as S } from './iframe-D2wSyy0Y.js';
 import '../sb-preview/runtime.js';
 const { global: f } = __STORYBOOK_MODULE_GLOBAL__,
   { addons: U } = __STORYBOOK_MODULE_PREVIEW_API__;

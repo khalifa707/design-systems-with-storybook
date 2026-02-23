@@ -1,9 +1,9 @@
 {
   "v": 5,
   "entries": {
-    "design-system-colors--docs": {
-      "id": "design-system-colors--docs",
-      "title": "Design System/Colors",
+    "tokens-colors--docs": {
+      "id": "tokens-colors--docs",
+      "title": "Tokens/Colors",
       "name": "Docs",
       "importPath": "./src/colors.mdx",
       "storiesImports": [],
@@ -41,6 +41,46 @@
       "name": "Destructive",
       "title": "Components/Button",
       "importPath": "./src/components/button/button.stories.tsx",
+      "tags": ["dev", "test"]
+    },
+    "components-callout--primary": {
+      "type": "story",
+      "id": "components-callout--primary",
+      "name": "Primary",
+      "title": "Components/Callout",
+      "importPath": "./src/components/callout/callout.stories.tsx",
+      "tags": ["dev", "test"]
+    },
+    "components-callout--information": {
+      "type": "story",
+      "id": "components-callout--information",
+      "name": "Information",
+      "title": "Components/Callout",
+      "importPath": "./src/components/callout/callout.stories.tsx",
+      "tags": ["dev", "test"]
+    },
+    "components-callout--success": {
+      "type": "story",
+      "id": "components-callout--success",
+      "name": "Success",
+      "title": "Components/Callout",
+      "importPath": "./src/components/callout/callout.stories.tsx",
+      "tags": ["dev", "test"]
+    },
+    "components-callout--warning": {
+      "type": "story",
+      "id": "components-callout--warning",
+      "name": "Warning",
+      "title": "Components/Callout",
+      "importPath": "./src/components/callout/callout.stories.tsx",
+      "tags": ["dev", "test"]
+    },
+    "components-callout--danger": {
+      "type": "story",
+      "id": "components-callout--danger",
+      "name": "Danger",
+      "title": "Components/Callout",
+      "importPath": "./src/components/callout/callout.stories.tsx",
       "tags": ["dev", "test"]
     }
   }

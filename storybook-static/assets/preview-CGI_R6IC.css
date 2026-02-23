@@ -445,6 +445,9 @@ video {
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-2xl {
+  border-radius: 1rem;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -468,6 +471,10 @@ video {
 .border-primary-400 {
   --tw-border-opacity: 1;
   border-color: rgb(188 155 229 / var(--tw-border-opacity));
+}
+.border-primary-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(153 103 213 / var(--tw-border-opacity));
 }
 .border-slate-200 {
   --tw-border-opacity: 1;
