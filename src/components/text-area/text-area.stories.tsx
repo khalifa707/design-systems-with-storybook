@@ -48,3 +48,18 @@ const meta = {
 
 export default meta;
 type Story = StoryObj<typeof TextArea>;
+
+export const Default: Story = {
+  args: {},
+};
+
+export const WithMaxLength: Story = {
+  args: {
+    maxLength: 10,
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.type(canvas.getByRole('textbox'), 'Hello World');
+    expect(canvas.getByTestId('length')).toHaveTextContent('11');
+  },
+};
